@@ -2,7 +2,7 @@
   "name": "test-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ksaniyan.github.io/test-01",
+  "homepage": "http://ksaniyan.github.io/React---User-cards-App",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.8.6",
