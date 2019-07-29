@@ -1,8 +1,6 @@
 import React from 'react';
-
 import CardList from './CardList';
 import Form from './Form';
-
 import '../styles/styles.css';
 
 // static data for testing
@@ -26,6 +24,7 @@ class App extends React.Component {
 	// 		profiles: testData,
 	// 	};
 	// }
+
 	// same initializing in a shorter way
 	state = {
 		profiles: []
@@ -38,13 +37,12 @@ class App extends React.Component {
 		}));
 	};
 
-	// required render function
 	render() {
 		// returns the Virtual DOM description of my component
 		return (
 			<div className="container">
 				<div className="header">
-					<h2>Xenia's GitHub Cards App on React</h2>
+					<h2>GitHub Cards App on React</h2>
 					<p>Take input from the user, call a public Github API,<br/> update the list of users</p>
 				</div>
 
